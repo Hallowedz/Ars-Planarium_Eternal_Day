@@ -1,0 +1,1 @@
+This is a low-code NeoForge mod. To rebuild, zip the contents of this directory so META-INF, data, pack.mcmeta, and README.txt are at the archive root, then rename the resulting .zip to .jar.

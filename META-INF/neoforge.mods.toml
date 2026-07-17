@@ -1,0 +1,32 @@
+modLoader="lowcodefml"
+loaderVersion="[4,)"
+license="LGPL-3.0-only"
+showAsResourcePack=false
+
+[[mods]]
+modId="planarium_eternal_day"
+version="1.0.0"
+displayName="Planarium Eternal Day"
+authors="Compatibility patch"
+description='''Makes Ars Nouveau Planarium dimensions use an Overworld-style sky with permanent noon instead of the black void sky.'''
+
+[[dependencies.planarium_eternal_day]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.planarium_eternal_day]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.planarium_eternal_day]]
+modId="ars_nouveau"
+type="required"
+versionRange="[5.0,)"
+ordering="AFTER"
+side="BOTH"
